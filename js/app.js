@@ -99,43 +99,53 @@ window.addEventListener('load', () => {
   //============================= gsap  ===========================================//
   let tl = new TimelineLite({ paused: true, reversed: true });
 
-
-  window.addEventListener('scroll', (e) => {
-
-    if (window.scrollY >= 150) {
-      if (tl.isActive()) {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-        return false
-      }
-      tl.fromTo('.topCateguries .col-6:nth-child(n+4) .categuryItem', 1, {
-        opacity: 0,
-        x: "+=500",
-        ease: Power2.easeOut,
-        immediateRender: false
-      }, {
-        opacity: 1,
-        x: 0,
-        onCompelte: function () {
-          // navOpen.style.pointerEvents = 'auto';
-          console.log('done');
-        }
-      }).fromTo('.topCateguries .col-6:nth-child(n-4) .categuryItem', 1, {
-        opacity: 0,
-        x: "-=500",
-        ease: Power2.easeOut,
-        immediateRender: false
-      }, {
-        opacity: 1,
-        x: 0,
-        onCompelte: function () {
-          // navOpen.style.pointerEvents = 'auto';
-          console.log('done');
-        }
-      });
-      tl.play();
+  gsap.timeline({
+    scrollTrigger: {
+      trigger: '.topCateguries',
+      start: "cnter center",
+      end: "bottom top",
+      // markers: true,
+      // scrub: true,
+      // pin: true
     }
-  })
+  }).from('.categuryItem', { x: innerHeight * 1, ease: "linear" })
+
+  // window.addEventListener('scroll', (e) => {
+
+  //   if (window.scrollY >= 150) {
+  //     if (tl.isActive()) {
+  //       e.preventDefault();
+  //       e.stopImmediatePropagation();
+  //       return false
+  //     }
+  //     tl.fromTo('.topCateguries .col-6:nth-child(n+4) .categuryItem', 1, {
+  //       opacity: 0,
+  //       x: "+=500",
+  //       ease: Power2.easeOut,
+  //       immediateRender: false
+  //     }, {
+  //       opacity: 1,
+  //       x: 0,
+  //       onCompelte: function () {
+  //         // navOpen.style.pointerEvents = 'auto';
+  //         console.log('done');
+  //       }
+  //     }).fromTo('.topCateguries .col-6:nth-child(n-4) .categuryItem', 1, {
+  //       opacity: 0,
+  //       x: "-=500",
+  //       ease: Power2.easeOut,
+  //       immediateRender: false
+  //     }, {
+  //       opacity: 1,
+  //       x: 0,
+  //       onCompelte: function () {
+  //         // navOpen.style.pointerEvents = 'auto';
+  //         console.log('done');
+  //       }
+  //     });
+  //     tl.play();
+  //   }
+  // })
 
 })
 
