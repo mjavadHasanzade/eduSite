@@ -97,18 +97,56 @@ $(document).ready(function () {
 
 window.addEventListener('load', () => {
   //============================= gsap  ===========================================//
-  let tl = new TimelineLite({ paused: true, reversed: true });
+  // let tl = new TimelineLite({ paused: true, reversed: true });
+  // gsap.registerPlugin(ScrollTrigger);
 
   gsap.timeline({
     scrollTrigger: {
-      trigger: '.topCateguries',
-      start: "cnter center",
-      end: "bottom top",
-      // markers: true,
-      // scrub: true,
-      // pin: true
-    }
-  }).from('.categuryItem', { x: innerHeight * 1, ease: "linear" })
+      trigger: ".topCateguries",
+      toggleActions: "reverse pause restart pause",
+      start: 'top +20%',
+      // end: () => {
+      //   "+=" + document.querySelector('.categuryItem').offsetWidth;
+      //   console.log(document.querySelector('.categuryItem').offsetWidth);
+      // },
+      // endTrigger: '.whyChooseUs',
+      end: 'center center',
+      scrub: true,
+    },
+  }).from('.categuryItem', {
+    duration: 2,
+    ease: "power4",
+    opacity: 0,
+    y: innerHeight * 0.25
+  });
+
+  // gsap.defaults({
+  //   scrollTrigger: {
+  //     trigger: ".categuryItem",
+  //     toggleActions: "reverse ",
+  //   },
+  //   x: 0,
+  // })
+
+  // gsap.to('.categuryItem', {
+
+  //   y: -35,
+  //   // rotate: 360,
+  //   ease: Power2.easeOut,
+  //   duration: 10
+  // });
+  // gsap.registerPlugin(ScrollTrigger);
+  // gsap.to('.topCateguries .col-6:nth-child(-n+3) .categuryItem', {
+  //   scrollTrigger: {
+  //     trigger: ".topCateguries .col-6:nth-child(-n+3) .categuryItem",
+  //     toggleActions: "restart pause reverse pause",
+  //     start:'top center',
+  //     markers:true
+  //   },
+  //   x: -600,
+  //   rotate: -360,
+  //   duration: 4
+  // })
 
   // window.addEventListener('scroll', (e) => {
 
