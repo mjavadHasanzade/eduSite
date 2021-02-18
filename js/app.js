@@ -93,7 +93,20 @@ $(document).ready(function () {
     });
   });
 
+  $('.quotesSlider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed:300,
+    arrows: true,
+    prevArrow: ".chevRight",
+    nextArrow: ".chevLeft",
+
+  });
+
 });
+
 
 window.addEventListener('load', () => {
   //============================= gsap  ===========================================//

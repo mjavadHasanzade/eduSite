@@ -697,8 +697,9 @@ ul {
     display: flex;
     align-items: center;
 }
+
 .counter_style2 .counter_icon {
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     width: 80px;
     height: 80px;
     line-height: 80px;
@@ -711,24 +712,92 @@ ul {
 .counter_style2 .counter_icon::before {
     content: "";
     position: absolute;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     left: -5px;
     top: -5px;
     bottom: -5px;
     right: -5px;
     border-radius: 100%;
 }
+
 .counter_style2.box_counter img {
     margin: 0;
     padding: 10px;
     max-width: 60px;
 }
+
 .counter_text {
     font-size: 30px;
     color: #fff;
 }
-.counter_content *{
+
+.counter_content * {
     color: #fff;
+}
+
+.quotes-sectons {
+    padding: 4rem 0;
+}
+
+.testimonial_image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.testi_img_holder {
+    position: relative;
+}
+
+.quotesSlider::before {
+    content: "\f10e";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.08);
+    line-height: normal;
+    font-weight: 900;
+}
+
+.quotesSlider {
+    position: relative;
+}
+
+.whyChooseUs {
+    padding: 4rem 0;
+}
+
+.quotesSlider p {
+    color: #888888;
+    font-size: .9rem;
+    padding: .75rem;
+}
+
+.chevBtn {
+    position: absolute;
+    border: none;
+    background-color: #fff;
+    bottom: 5%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    color: var(--mainBlack);
+    z-index: 1;
+    padding: .4rem .8rem;
+    border-radius: 1px;
+}
+
+.chevBtn.chevRight {
+    right: 5%;
+}
+
+.chevBtn.chevLeft {
+    right: 15%;
+}
+
+.img-avatar {
+    max-width: 60px;
+    border-radius: 100%;
 }
 
 @media only screen and (max-width:426px) {
