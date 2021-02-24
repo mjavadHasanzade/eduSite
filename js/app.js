@@ -98,7 +98,7 @@ $(document).ready(function () {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    speed:300,
+    speed: 300,
     arrows: true,
     prevArrow: ".chevRight",
     nextArrow: ".chevLeft",
@@ -132,6 +132,73 @@ window.addEventListener('load', () => {
     opacity: 0,
     y: innerHeight * 0.25
   });
+
+
+  // gsap.timeline({
+  //   scrollTrigger: {
+  //     trigger: ".quotes-sectons",
+  //     toggleActions: "reverse pause restart pause",
+  //     start: 'top 50%',
+  //     // end: () => {
+  //     //   "+=" + document.querySelector('.categuryItem').offsetWidth;
+  //     //   console.log(document.querySelector('.categuryItem').offsetWidth);
+  //     // },
+  //     // endTrigger: '.whyChooseUs',
+  //     end: 'bottom bottom',
+  //     scrub: true,
+  //     ease: Power2.easeOut,
+  //   },
+  //   duration: 4
+  // }).from('.imgerQuot', {
+  //   duration: 4,
+  //   ease: "power4",
+  //   opacity: 0,
+  //   x: innerWidth * 1
+  // });
+  // gsap.timeline({
+  //   scrollTrigger: {
+  //     trigger: ".quotes-sectons",
+  //     toggleActions: "reverse pause restart pause",
+  //     start: 'top 50%',
+  //     end: 'bottom bottom',
+  //     scrub: true,
+  //     ease: Power2.easeOut,
+  //   },
+  //   duration: 4
+  // }).from('.textQuot', {
+  //   duration: 4,
+  //   ease: "power4",
+  //   opacity: 0,
+  //   x: innerWidth * -1
+  // });
+  gsap.timeline({
+    scrollTrigger: {
+      trigger: ".whyChooseUs",
+      toggleActions: "reverse pause restart pause",
+      start: 'bottom 50%',
+      endTrigger: '.statics',
+      end: 'bottom bottom',
+      scrub: true,
+      ease: Power2.easeOut,
+    },
+    duration: 4
+  }).from('.box_counter', {
+    duration: 4,
+    ease: `Power2.easeInOut`,
+    opacity: 0,
+    y: innerHeight * 1,
+  });
+
+  // document.getElementById
+
+  // function offset(el) {
+  //   var rect = el.getBoundingClientRect(),
+  //     scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+  //     scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  //   return rect.top + scrollTop
+  // }
+
+  
 
   // gsap.defaults({
   //   scrollTrigger: {

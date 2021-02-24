@@ -619,27 +619,27 @@ ul {
     box-shadow: 0 4px 10px rgb(0 0 0 / 30%);
 }
 
-.topCateguries .col-6:nth-child(1) .categuryItem {
+.topCateguries .col-6:nth-child(1) .categuryItem, .whyChooseUs .col-12:nth-child(1) .serviceItem i {
     background-color: #F6475F;
 }
 
-.topCateguries .col-6:nth-child(2) .categuryItem {
+.topCateguries .col-6:nth-child(2) .categuryItem, .whyChooseUs .col-12:nth-child(2) .serviceItem i {
     background-color: #4382FF;
 }
 
-.topCateguries .col-6:nth-child(3) .categuryItem {
+.topCateguries .col-6:nth-child(3) .categuryItem, .whyChooseUs .col-12:nth-child(3) .serviceItem i {
     background-color: #F89035;
 }
 
-.topCateguries .col-6:nth-child(4) .categuryItem {
+.topCateguries .col-6:nth-child(4) .categuryItem, .whyChooseUs .col-12:nth-child(4) .serviceItem i {
     background-color: #F94FA4;
 }
 
-.topCateguries .col-6:nth-child(5) .categuryItem {
+.topCateguries .col-6:nth-child(5) .categuryItem, .whyChooseUs .col-12:nth-child(5) .serviceItem i {
     background-color: #38DDF7;
 }
 
-.topCateguries .col-6:nth-child(6) .categuryItem {
+.topCateguries .col-6:nth-child(6) .categuryItem, .whyChooseUs .col-12:nth-child(6) .serviceItem i {
     background-color: #B3D369;
 }
 
@@ -693,7 +693,7 @@ ul {
 .statics {
     background-attachment: fixed;
     background-color: #4382FF;
-    height: 350px;
+    height: 450px;
     display: flex;
     align-items: center;
 }
