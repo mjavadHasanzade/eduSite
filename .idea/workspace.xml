@@ -1,7 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4afb94-6829-418a-8e20-85b1891f44ac" name="Default Changelist" comment="" />
+    <list default="true" id="5f4afb94-6829-418a-8e20-85b1891f44ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bs4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/bs4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/faw.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/faw.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pdp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/pdp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/slick-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/slick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/NotoSansJP-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/NotoSansJP-Regular.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-brands-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-brands-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-duotone-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-duotone-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-duotone-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-duotone-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-duotone-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-duotone-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-duotone-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-duotone-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-duotone-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-duotone-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-light-300.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-light-300.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-light-300.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-light-300.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-light-300.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-light-300.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-light-300.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-light-300.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-light-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-light-300.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-regular-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-regular-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-solid-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-solid-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fontawesome/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/slick.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/slick.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/slick.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/slick.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/slick.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/slickslick.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/slickslick.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Group 138.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Group 138.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/white-transparent-arrow-25.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/white-transparent-arrow-25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/counter_icon1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/counter_icon1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/counter_icon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/counter_icon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/counter_icon3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/counter_icon3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/counter_icon4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/counter_icon4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/element5-digital-OyCl7Y4y0Bk-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/element5-digital-OyCl7Y4y0Bk-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/event_img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/event_img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/footer_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pattern_bg4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/pattern_bg4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sharon-mccutcheon-O2u6gA2esAI-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sharon-mccutcheon-O2u6gA2esAI-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonial_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/testimonial_img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonial_shape.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/testimonial_shape.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/user1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/user1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/user2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/user2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/user3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/user3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/user4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/user4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/user5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/user5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/user6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/user6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/chartjs-chart-financial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/chartjs-chart-financial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/clipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/clipboard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-1.12.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pd.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pdp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pdp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/visualization.vg.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/visualization.vg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/zingchart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/zingchart.min.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +118,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lambdaxyzt\Downloads\Project\eduSite\views" />
+      <recent name="C:\Users\Lambdaxyzt\Downloads\Project\eduSite\build" />
+      <recent name="C:\Users\Lambdaxyzt\Downloads\Project\eduSite\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615035538041</updated>
-      <workItem from="1615035540989" duration="319000" />
+      <workItem from="1615035540989" duration="712000" />
     </task>
     <servers />
   </component>
@@ -48,5 +150,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615035672622">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1615035672622" />
   </component>
 </project>
