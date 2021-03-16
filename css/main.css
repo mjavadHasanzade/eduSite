@@ -1,0 +1,140 @@
+@font-face {
+  font-family: noto;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/NotoSansJP-Thin.otf");
+}
+
+@font-face {
+  font-family: noto;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/NotoSansJP-Black.otf");
+}
+
+@font-face {
+  font-family: noto;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/NotoSansJP-Medium.otf");
+}
+
+@font-face {
+  font-family: noto;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/NotoSansJP-Regular.otf");
+}
+
+@font-face {
+  font-family: noto;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/NotoSansJP-Bold.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  direction: ltr;
+  text-align: left;
+  font-family: "noto";
+  font-weight: 500;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+* {
+  outline: unset;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+div#selection_bubble {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #d5c783;
+  background-color: #d5c783;
+}
+
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* menu */
+.header__topMenu {
+  background-color: #4382FF;
+  padding: .75rem 0;
+}
+
+.header__topMenu__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__topMenu__number {
+  display: flex;
+}
+
+.header__topMenu__number a {
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 200;
+  margin: 0 .5rem 0 .5rem;
+}
+
+.header__socialMedias {
+  margin-left: auto;
+}
+
+.header__socialMedias li {
+  display: inline-block;
+  margin: 0 .5rem;
+}
+
+.header__socialMedias li a {
+  color: #fff;
+  font-size: .9rem;
+  transition: .3s ease all;
+}
+
+.header__socialMedias li a:hover {
+  color: #FFBC09;
+}
+/*# sourceMappingURL=main.css.map */
