@@ -143,3 +143,64 @@
 }
 
 
+.topCateguries {
+    padding: 5rem 0;
+
+    &__categuryItem {
+
+        background-color: #07a3eb;
+        text-align: center;
+        padding: 1.7rem;
+        border-radius: 20px;
+        transition: ease all .3s;
+        position: relative;
+        overflow: hidden;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px #2f4f4f54;
+        }
+
+        i {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 30px;
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        a.linkFit {
+            @extend %linkFit;
+        }
+    }
+
+    .col-6:nth-child(1) &__categuryItem {
+        background-color: #F6475F;
+    }
+
+    .col-6:nth-child(2) &__categuryItem {
+        background-color: #4382FF;
+    }
+
+    .col-6:nth-child(3) &__categuryItem {
+        background-color: #F89035;
+    }
+
+    .col-6:nth-child(4) &__categuryItem {
+        background-color: #F94FA4;
+    }
+
+    .col-6:nth-child(5) &__categuryItem {
+        background-color: #38DDF7;
+    }
+
+    .col-6:nth-child(6) &__categuryItem {
+        background-color: #B3D369;
+    }
+}
