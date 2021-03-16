@@ -84,3 +84,17 @@ body {
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
+// =========================== // ===================== // ===================== // ========================= // ==================== //
+
+.form_style3 .form-control {
+    border: 0;
+}
+
+.form_style1 .form-control, .form_style1 .form-control:focus, .form_style3 .form-control, .form_style3 .form-control:focus {
+    border-radius: 40px;
+}
+
+.form-control {
+    height: 47px;
+    padding: 10px 20px;
+}
