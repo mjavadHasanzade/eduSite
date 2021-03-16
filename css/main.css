@@ -128,6 +128,10 @@ ul {
   margin: 0 .5rem;
 }
 
+.header__socialMedias li:last-child {
+  margin-right: 1rem;
+}
+
 .header__socialMedias li a {
   color: #fff;
   font-size: .9rem;
@@ -135,6 +139,27 @@ ul {
 }
 
 .header__socialMedias li a:hover {
+  color: #FFBC09;
+}
+
+.header__btn--login {
+  display: inline-block;
+  color: #fff;
+  padding: 0 1rem;
+  border-left: 2px solid #fff;
+  transition: .3s ease all;
+}
+
+.header__btn--login:hover {
+  color: #FFBC09;
+}
+
+.header__navItem--active .nav-link {
+  color: #292b2c;
+  font-weight: 700;
+}
+
+.header .nav-item:first-child .nav-link, .header__navItem--active {
   color: #FFBC09;
 }
 /*# sourceMappingURL=main.css.map */

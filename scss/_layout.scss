@@ -28,15 +28,41 @@
             display: inline-block;
             margin: 0 .5rem;
 
+            &:last-child {
+                margin-right: 1rem;
+            }
+
             a {
                 color: #fff;
                 font-size: .9rem;
                 transition: .3s ease all;
-                &:hover{
-                        color: $mainYellow
+
+                &:hover {
+                    color: $mainYellow
                 }
             }
         }
     }
 
+    &__btn--login {
+        display: inline-block;
+        color: #fff;
+        padding: 0 1rem;
+        border-left: 2px solid #fff;
+        transition: .3s ease all;
+
+        &:hover {
+            color: $mainYellow;
+        }
+    }
+
+    &__navItem--active .nav-link {
+        color: $mainBlack;
+        font-weight: 700;
+    }
+
+    .nav-item:first-child .nav-link,
+    &__navItem--active {
+        color: $mainYellow;
+    }
 }
