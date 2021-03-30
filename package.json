@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "sass": "node-sass src/scss/main.scss src/css/main.css",
+    "sass": "node-sass src/asset/scss/main.scss src/asset/css/main.css",
     "start": "node server.js"
   },
   "repository": {
