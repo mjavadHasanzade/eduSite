@@ -1,0 +1,14 @@
+// normalize for all browser
+@import "external/normalize";
+// delete all tag predifined css property
+@import "external/reset";
+//import bootstrap
+@import "external/bs4";
+
+//slick library
+@import "external/slick/slick";
+@import "external/slick/slick-theme";
+
+@import "base";
+@import "components";
+@import "layout";
