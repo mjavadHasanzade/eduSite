@@ -1,37 +1,3 @@
-@font-face {
-    font-family: noto;
-    font-style: normal;
-    font-weight: 200;
-    src: url("../fonts/NotoSansJP-Thin.otf");
-}
-
-@font-face {
-    font-family: noto;
-    font-style: normal;
-    font-weight: 900;
-    src: url("../fonts/NotoSansJP-Black.otf");
-}
-
-@font-face {
-    font-family: noto;
-    font-style: normal;
-    font-weight: 500;
-    src: url("../fonts/NotoSansJP-Medium.otf");
-}
-
-@font-face {
-    font-family: noto;
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/NotoSansJP-Regular.otf");
-}
-
-@font-face {
-    font-family: noto;
-    font-style: normal;
-    font-weight: 800;
-    src: url("../fonts/NotoSansJP-Bold.otf");
-}
 
 body {
     direction: ltr;
