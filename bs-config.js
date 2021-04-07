@@ -36,7 +36,8 @@ module.exports = {
             "/asset/js" : "dev/asset/js",
             "/asset/style" : "dev/asset/style",
             "/asset/font" : "src/asset/font",
-            "/asset/image" : "src/asset/image",
+            "/asset/images" : "src/asset/images",
+            "/asset/img" : "src/asset/img",
             "/asset/svg" : "src/asset/svg"
         }
     },
